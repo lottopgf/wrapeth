@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-export const wethAddrs: any = {
+export const wethAddrs: Record<string, `0x${string}`> = {
   // mainnet = homestead // rainbowkit syntax
   homestead: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
   gnosis: '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
@@ -11,4 +11,5 @@ export const wethAddrs: any = {
   'optimism-kovan': '0x4200000000000000000000000000000000000006',
   goerli: '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
   sepolia: '0xf531B8F309Be94191af87605CfBf600D71C2cFe0',
+  degen: '0xEb54dACB4C2ccb64F8074eceEa33b5eBb38E5387',
 };

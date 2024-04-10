@@ -14,6 +14,7 @@ const useGasFee = () => {
     10: 50000, // OP Mainnet
     5: 50000, // Goerli
     11155111: 85000, // Sepolia
+    666666666: 100000, // Degen
   };
 
   const estimatedGasUsed = chain?.id ? gasUsedByChain[chain.id] : 0;
